@@ -1,0 +1,98 @@
+/* Contenedor del panel de Login */
+.panel-formulario {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header del Login */
+.registro-header {
+    margin-bottom: 30px;
+}
+
+.logo-stockmind {
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.registro-header h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Estructura de los inputs */
+.grupo-input {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Iconos dentro de los inputs */
+.input-con-icono i {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    color: #39a900; /* Verde institucional */
+    font-size: 18px;
+}
+
+.grupo-input input {
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background-color: #fcfcfc;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+/* Efecto al hacer clic en el input */
+.grupo-input input:focus {
+    border-color: #39a900;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(57, 169, 0, 0.1);
+}
+
+/* Mensajes de error de validación */
+.error-msg {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+/* Botón principal */
+.btn-registrar {
+    width: 100%;
+    padding: 14px;
+    background-color: #39a900;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.btn-registrar:hover {
+    background-color: #2e8600;
+}
+
+.btn-registrar:active {
+    transform: scale(0.98);
+}

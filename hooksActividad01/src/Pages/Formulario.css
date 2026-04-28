@@ -1,0 +1,110 @@
+/* Contenedor Principal del Registro */
+.contenido-derecho {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header: Logo y Título */
+.registro-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-stockmind {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.registro-header h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Filas de Inputs (para poner dos por línea) */
+.fila-input {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Grupos de Input Individuales */
+.grupo-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los iconos de Bootstrap */
+.grupo-input i {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    color: #39a900; /* Verde SENA */
+    font-size: 18px;
+    z-index: 1;
+}
+
+/* Inputs y Selects */
+.grupo-input input, 
+.select-input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+.select-input {
+    padding-left: 15px; /* Los select no suelen llevar icono a la izquierda */
+    cursor: pointer;
+    appearance: none; /* Quita el estilo por defecto */
+}
+
+.grupo-input input:focus, 
+.select-input:focus {
+    border-color: #39a900;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(57, 169, 0, 0.2);
+}
+
+/* Estilo para los mensajes de Error */
+.error {
+    color: #d32f2f;
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+/* Botón de Registro */
+.btn-registrar {
+    width: 100%;
+    padding: 14px;
+    background-color: #39a900;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-registrar:hover {
+    background-color: #2e8600;
+    box-shadow: 0 4px 12px rgba(57, 169, 0, 0.3);
+}
